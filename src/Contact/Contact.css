@@ -1,0 +1,133 @@
+.contact-heading{
+    margin-top: 280px;
+    margin-left: 50px;
+    color: #ff922d;
+    font-size: 40px;
+}
+.contact-heading2{
+    margin-left: 50px;
+    color: #1f3e72;
+    font-size: 50px;
+}
+.contact-para{
+    margin-left: 50px;
+    width: 600px;
+    font-size: 18px;
+
+}
+.call-icon{
+    margin-top: 9px;
+    padding-top: 12px;
+    font-size: 28px;
+    margin-left: 30px;
+}
+.call-btn{
+    margin-top: 29px;
+    padding: 10px;
+    background: #eeeeff;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    width: 19rem;
+    margin-left: 13px;
+    color: #4066ff;
+    font-size: 21px;
+    font-weight: bolder;
+    transition: all .3s ease-in;
+}
+.call-detail{
+    margin-top: -60px;
+    margin-left: 83px;
+}
+.call{
+    width: 22rem;
+    height: 12rem;
+    padding: 7px;
+    border: 0.8px solid rgba(128,128,128,.143);
+    border-radius: 7px;
+    gap: 1rem;
+    transition: all .3s ease-in;
+    margin-left: 50px;
+    margin-top: 48px;
+    transition: all .3s ease-in;
+
+}
+.icon1{
+    color: #4066ff;
+    padding: 15px;
+    background: #eeeeff;
+    border-radius: 5px;
+}
+.call-btn:hover{
+    color: white;
+    background-color: #4066ff;
+    scale: 0.9;
+}
+.contact-section{
+    display: flex;
+}
+.call:hover{
+    scale: 1.2;
+    box-shadow: 0px 23px 21px -8px rgba(136, 160, 255, 0.25);;
+}
+.hero-right{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.contact-image{
+    border-radius: 17rem 17rem 0 0;
+    border: 8px solid rgba(255,255,255,.12);
+    overflow: hidden;
+    margin-top: -641px;
+    margin-left: 1116px;
+}
+.contact-image img{
+    width: 38rem;
+    /* margin-left: -70px; */
+    height: 44rem;
+}
+.inner-container{
+    gap: 1.5rem;
+    background: #4161df;
+    padding: 2rem;
+    border-radius: 10px;
+    border: 6px solid #5d77d6;
+    text-align: center;
+    margin-top: 100px;
+
+}
+.primry-text{
+    color: #fff;
+    font-weight: 600;
+    font-size: 43px;
+    padding-bottom: 23px;
+
+}
+.secondory-text{
+    color: #ffffff96;
+
+}
+.btn2{
+    background: #5a73d7;
+    border: 2px solid white;
+    box-shadow: var(--shadow);
+    border-radius: 10px;
+    padding: 12px;
+    width: 197px;
+    margin: auto;
+    margin-top: 23px;
+    color: white;
+    font-size: 20px;
+}
+@media screen and (max-width:480px) {
+    .contact-para{
+        width: 282px;
+    }
+    .contact-section{
+        display: flex;
+    flex-direction: column;
+    margin-left: -39px;
+    width: 20rem;
+    }
+}

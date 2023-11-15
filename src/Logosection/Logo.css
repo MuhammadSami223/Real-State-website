@@ -1,0 +1,18 @@
+.logo-container{
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+    margin-top: 120px;
+}
+.logo-container>img{
+    width: 10rem
+}
+@media screen and (max-width:480px) {
+    .logo-container{
+        display: flex;
+        flex-direction: column;
+        margin-left: 98px;
+        gap: 49px;
+    
+    }
+}
