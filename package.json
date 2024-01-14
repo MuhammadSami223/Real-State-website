@@ -1,5 +1,6 @@
 {
   "name": "my-app",
+    "homepage": "https://MuhammadSami223.github.io/Real-State-website",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

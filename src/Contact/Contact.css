@@ -28,7 +28,7 @@
     border-radius: 5px;
     display: flex;
     justify-content: center;
-    width: 19rem;
+    width: 16rem;
     margin-left: 13px;
     color: #4066ff;
     font-size: 21px;
@@ -40,7 +40,7 @@
     margin-left: 83px;
 }
 .call{
-    width: 22rem;
+    width: 19rem;
     height: 12rem;
     padding: 7px;
     border: 0.8px solid rgba(128,128,128,.143);
@@ -51,6 +51,9 @@
     margin-top: 48px;
     transition: all .3s ease-in;
 
+}
+.call-detail>h3{
+    font-size: 23px;
 }
 .icon1{
     color: #4066ff;
@@ -76,16 +79,17 @@
     align-items: flex-end;
 }
 .contact-image{
-    border-radius: 17rem 17rem 0 0;
+    border-radius: 17rem 3rem 0 0;
     border: 8px solid rgba(255,255,255,.12);
     overflow: hidden;
     margin-top: -641px;
-    margin-left: 1116px;
+    margin-left: 759px;
+
 }
 .contact-image img{
-    width: 38rem;
+    width: 33rem;
     /* margin-left: -70px; */
-    height: 44rem;
+    height: 36rem;
 }
 .inner-container{
     gap: 1.5rem;

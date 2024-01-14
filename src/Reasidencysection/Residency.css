@@ -12,28 +12,9 @@
 }
 .residency-images{
     display: flex;
-    gap: 8rem;
+    gap: 2rem;
      margin-top: 80px;
 }
-.r1{
-    transition: all .3s ease-in;
-}
-.r2{
-    transition: all .3s ease-in;
-}
-.r3{
-    transition: all .3s ease-in;
-}
-.r1:hover{
-    scale: 1.1;
-    box-shadow: 0px 23px 21px -8px rgba(136, 160, 255, 0.25);;
-    }
-.r2:hover{
-    scale: 1.1;
-    }
-.r3:hover{
-    scale: 1.1;
-    }
 .img>img{
     width: 360px;
     padding-left: 12px;
@@ -62,22 +43,14 @@
     padding-left: 12px;
 
 }
-.r1:hover{
-    box-shadow: 0px 23px 21px -8px rgba(120, 160, 255, 0.25);
-    width: 24rem;
-    background-color: rgb(238, 241, 243);
-}
-.r2:hover{
-    box-shadow: 0px 23px 21px -8px rgba(120, 160, 255, 0.25);
-    width: 24rem;
-    background-color: rgb(238, 241, 243);
-}
-.r3:hover{
-    box-shadow: 0px 23px 21px -8px rgba(120, 160, 255, 0.25);
-    width: 24rem;
-    background-color: rgb(238, 241, 243);
-}
+
 @media screen and (max-width:480px){
+    .residency2{
+        display: none;
+    }
+    .value-right{
+        margin-top: -100px;
+    }
 .residency-heading h2{
     font-size: 23px;
     justify-content: center;

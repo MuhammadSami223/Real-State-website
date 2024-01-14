@@ -20,17 +20,33 @@ function Residency() {
 <div className="card-heading">Aliva Priva Jardin</div>
 <div className="card-para">Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta</div>
         </div>
-        <div className="r2 img">
-<img src={r2} alt="" />
-<div className="price"><span>$</span> 7723</div>
-<div className="card-heading">Asatti Garden City</div>
-<div className="card-para">Pahlawan Street XVII No.215, Cinangka, Sawangan, Depok, Jawa Barat</div>
-        </div>
-        <div className="r3 img">
-<img src={r3} alt="" />
+        <div className="r1 img residency1 residency2">
+<img src={r1} alt="" />
 <div className="price"><span>$</span> 4723</div>
-<div className="card-heading">Citralan Puri Serang</div>
-<div className="card-para">Ruko Puri Indah Residence Block A7, Lingkar Street, Ciracas, Serang, Banten</div>
+<div className="card-heading">Aliva Priva Jardin</div>
+<div className="card-para">Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta</div>
+        </div>
+        <div className="r4 img">
+<img src={r1} alt="" />
+<div className="price"><span>$</span> 4723</div>
+<div className="card-heading">Aliva Priva Jardin</div>
+<div className="card-para">Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta</div>
+        </div>
+    
+       
+    </div>
+    <div className="residency-images">
+        <div className="r1 img residency1">
+<img src={r1} alt="" />
+<div className="price"><span>$</span> 4723</div>
+<div className="card-heading">Aliva Priva Jardin</div>
+<div className="card-para">Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta</div>
+        </div>
+        <div className="r1 img residency1 residency2">
+<img src={r1} alt="" />
+<div className="price"><span>$</span> 4723</div>
+<div className="card-heading">Aliva Priva Jardin</div>
+<div className="card-para">Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta</div>
         </div>
         <div className="r4 img">
 <img src={r1} alt="" />

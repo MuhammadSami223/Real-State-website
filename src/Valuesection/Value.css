@@ -6,17 +6,18 @@
     margin-left: 116px;
 }
 .value-image img{
-width: 35rem;
-/* margin-left: -70px; */
-height: 44rem;
+    width: 31rem;
+    /* margin-left: -70px; */
+    height: 33rem;
 }
 .accordion{
-    width: 50rem;
-    scale: 1.4;
+    width: 37rem;
+    scale: 1.;
     /* height: 100rem; */
-    margin-left: 1000px;
+    margin-left: 673px;
     /* float: left; */
-    margin-top: -522px;
+    margin-top: -437px;
+
 }
 .value-para{
     width: 600px;

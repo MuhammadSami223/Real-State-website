@@ -10,13 +10,17 @@
     border-radius: 17rem 17rem 0 0;
     border: 8px solid rgba(255,255,255,.12);
     overflow: hidden;
-    margin-top:-604px;
-    margin-left: 1116px;
+    margin-top: -604px;
+    margin-left: 762px;
+    /* width: 200rem; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 .hero-image img{
-    width: 35rem;
-    /* margin-left: -70px; */
-    height: 44rem;
+    width: 30rem;
+
 }
 .hero-heading{
     color: white;
@@ -78,13 +82,13 @@ font-size: 64px;
     font-size: 20px;
     /* justify-content: space-between; */
     gap: 70px;
-    margin-top: -76px;
+    margin-top: -23px;
     margin-left: 124px;
     padding-bottom: 70px;
     padding-top: 40px;
 }
 .flexstats>:nth-child(1){
-    font-size: 55px;
+    font-size: 49px;
 }
 .flexstats>:nth-child(2){
     opacity: 0.4;
